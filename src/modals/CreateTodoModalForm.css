@@ -1,0 +1,87 @@
+@import url('https://fonts.cdnfonts.com/css/zetetic');
+
+form {
+  width: 90%;
+  max-width: 300px;
+  background-color: #423a6f;
+  padding: 33px 40px;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+
+label {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 26px;
+  color: white;
+  font-family: 'zetetic', sans-serif;
+  font-size: 180%;
+}
+
+
+textarea {
+  background-color: #423a6f;
+  border: none;
+  outline: none;
+  color: 'white';
+  font-size: 30px;
+  text-align: center;
+  padding: 12px;
+  height: 96px;
+  width: calc(100%-25px);
+  font-family: 'zetetic', sans-serif;
+  font-weight: 600;
+}
+
+textarea::placeholder {
+  color: rgba(235, 235, 238, 0.5);
+  letter-spacing: 3px;
+  font-family: 'zetetic', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+textarea:focus {
+  outline-color: rgb(66, 58, 111);
+  border-color: #423a6f;
+  color:white;
+}
+
+.TodoForm-buttonContainer {
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.TodoForm-button {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  color: #080327;
+  font-weight: 400;
+  width: 120px;
+  height: 48px;
+  border-radius: 2px;
+  border: none;
+  font-family: 'zetetic', sans-serif;
+}
+
+.TodoForm-button-add {
+  background-color: rgb(30, 24, 59);
+  box-shadow: 0px 5px 25px rgb(110, 95, 190);
+  color: white;
+}
+
+.TodoForm-button-cancel {
+  background: transparent;
+}
+
+.TodoForm-button-cancel:hover {
+  background-color: rgb(30, 24, 59);
+  box-shadow: 0px 5px 25px rgb(110, 95, 190);
+  color: white;
+}
